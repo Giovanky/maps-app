@@ -3,7 +3,7 @@ import './style.css'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import mapboxgl from 'mapbox-gl'; // or "const mapboxgl = require('mapbox-gl');"
+import mapboxgl from 'mapbox-gl';
  
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ2lvdmFubnlnYXJ6b24iLCJhIjoiY2txc3hlcXNmMDFhdTJ3bXRjZnAyZjJjciJ9.ekWHrI0YvRzPkcoxVxeuAw';
 
