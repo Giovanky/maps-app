@@ -7,6 +7,10 @@
 </template>
 
 <style scoped>
+body {
+  height: 100%;
+  width: 100%;
+}
 .logo {
   position: fixed;
   bottom: 1rem;
