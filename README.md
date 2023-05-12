@@ -1,5 +1,5 @@
 #MapsApp
-- [Try It!]: >(https://645dde830be5e34f54f818f8--fantastic-granita-36716e.netlify.app/#/)
+https://645dde830be5e34f54f818f8--fantastic-granita-36716e.netlify.app/#/
 
 # Vue 3 + TypeScript + Vite
 
