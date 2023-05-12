@@ -1,8 +1,8 @@
 import { createStore } from 'vuex';
 
 import placesModule from './places';
-import mapModule from './map';
 import { PlacesState } from './places/state';
+import mapModule from './map';
 import { MapState } from './map/state';
 
 
