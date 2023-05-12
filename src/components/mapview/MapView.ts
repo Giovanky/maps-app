@@ -25,7 +25,7 @@ export default defineComponent({
                 .setLngLat(userLocation.value)
                 .setHTML(`<g4>Aqui estas</h4>`)
 
-            const locationMarker = new mapboxgl.Marker()
+            new mapboxgl.Marker()
                 .setLngLat(userLocation.value)
                 .setPopup(locationPopup)
                 .addTo(map)
@@ -37,7 +37,7 @@ export default defineComponent({
             console.log('No se ha cargado la localizacion aun')
         })
 
-        watch(isUserlocationReady, (n) => {
+        watch(isUserlocationReady, () => {
             if(isUserlocationReady.value) initMap()
         })
 

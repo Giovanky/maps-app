@@ -54,7 +54,7 @@ const mutation: MutationTree<MapState> = {
 
     setRoutePolyline( state, coords: number[][] ) {
         const start = coords[0];
-        const end   = coords[ coords.length - 1 ];
+        coords[ coords.length - 1 ]; //end
 
         // Definir los bounds 
         const bounds = new Mapboxgl.LngLatBounds(
